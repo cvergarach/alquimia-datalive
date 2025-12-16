@@ -13,7 +13,7 @@ const genAI = new GoogleGenerativeAI(apiKey)
 
 // Usar Gemini 2.0 Flash
 export const geminiModel = genAI.getGenerativeModel({ 
-  model: 'gemini-2.0-flash-exp'
+  model: 'gemini-2.5-flash'
 })
 
 export default geminiModel
